@@ -4,5 +4,5 @@ background: white;
 }
 
 .Todo-Item:hover .trash-icon{
-  display:initial;
+  display:block;
 }
