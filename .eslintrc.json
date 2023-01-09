@@ -8,7 +8,7 @@
   "extends": "eslint:recommended",
   "overrides": [],
   "parserOptions": {
-    "ecmaVersion": "latest"
+    "ecmaVersion": "latest-main"
   },
   "rules": {}
 }
