@@ -43,7 +43,7 @@ app.get("/todos", async (request, response) => {
     return response.json(todoslist);
   } catch (error) {
     console.log(error);
-    return response.status(422).json(error);
+    return response.status(42).json(error);
   }
 });
 app.get("/todos/:id", async function (request, response) {
